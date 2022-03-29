@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./style/index.sass";
-import Button from "./views/Button";
+import Button from "./page/Button";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

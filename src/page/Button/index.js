@@ -5,7 +5,7 @@ import style from "./Button.module.sass";
 class Button extends Component {
   render() {
     return (
-      <div>
+      <div className={style.container}>
         <button className={style.button}>Hello React</button>
       </div>
     );
