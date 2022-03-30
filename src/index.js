@@ -1,15 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style/index.sass";
-import Button from "./page/Button";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Button />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
